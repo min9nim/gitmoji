@@ -4,6 +4,7 @@ import GitmojiList from 'src/components/GitmojiList'
 import SEO from 'src/components/SEO'
 import axios from 'axios'
 import { prop } from 'ramda'
+import { DefaultLoading } from 'react-hook-loading'
 
 const Home = () => {
   const [list, setList] = React.useState([])
@@ -16,6 +17,10 @@ const Home = () => {
       .then(prop('data'))
       .then((list) => setList(list))
   }, [])
+
+  if (list.length === 0) {
+    return <DefaultLoading />
+  }
   return (
     <>
       <SEO />
