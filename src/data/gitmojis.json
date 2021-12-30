@@ -235,6 +235,14 @@
       "semver": "patch"
     },
     {
+      "type": "refactor",
+      "emoji": "☀️",
+      "code": ":sunny:",
+      "description": "Don't Repeat Your code",
+      "name": "sun",
+      "semver": null
+    },
+    {
       "type": "update",
       "emoji": "👽️",
       "entity": "&#1F47D;",
