@@ -1,6 +1,7 @@
 {
   "gitmojis": [
     {
+      "type": "feature",
       "emoji": "🎨",
       "entity": "&#x1f3a8;",
       "code": ":art:",
@@ -9,6 +10,7 @@
       "semver": null
     },
     {
+      "type": "refactor",
       "emoji": "⚡️",
       "entity": "&#x26a1;",
       "code": ":zap:",
@@ -17,6 +19,7 @@
       "semver": "patch"
     },
     {
+      "type": "remove",
       "emoji": "🔥",
       "entity": "&#x1f525;",
       "code": ":fire:",
@@ -25,6 +28,7 @@
       "semver": null
     },
     {
+      "type": "update",
       "emoji": "🐛",
       "entity": "&#x1f41b;",
       "code": ":bug:",
@@ -33,6 +37,7 @@
       "semver": "patch"
     },
     {
+      "type": "update",
       "emoji": "🚑️",
       "entity": "&#128657;",
       "code": ":ambulance:",
@@ -41,6 +46,7 @@
       "semver": "patch"
     },
     {
+      "type": "feature",
       "emoji": "✨",
       "entity": "&#x2728;",
       "code": ":sparkles:",
@@ -49,6 +55,7 @@
       "semver": "minor"
     },
     {
+      "type": "update",
       "emoji": "📝",
       "entity": "&#x1f4dd;",
       "code": ":memo:",
@@ -57,6 +64,7 @@
       "semver": null
     },
     {
+      "type": "ui",
       "emoji": "💄",
       "entity": "&#ff99cc;",
       "code": ":lipstick:",
@@ -65,6 +73,7 @@
       "semver": "patch"
     },
     {
+      "type": "update",
       "emoji": "🔒️",
       "entity": "&#x1f512;",
       "code": ":lock:",
@@ -73,6 +82,7 @@
       "semver": "patch"
     },
     {
+      "type": "etc",
       "emoji": "🔖",
       "entity": "&#x1f516;",
       "code": ":bookmark:",
@@ -81,6 +91,7 @@
       "semver": null
     },
     {
+      "type": "update",
       "emoji": "🚨",
       "entity": "&#x1f6a8;",
       "code": ":rotating_light:",
@@ -89,6 +100,7 @@
       "semver": null
     },
     {
+      "type": "etc",
       "emoji": "🚧",
       "entity": "&#x1f6a7;",
       "code": ":construction:",
@@ -97,6 +109,7 @@
       "semver": null
     },
     {
+      "type": "update",
       "emoji": "💚",
       "entity": "&#x1f49a;",
       "code": ":green_heart:",
@@ -105,6 +118,7 @@
       "semver": null
     },
     {
+      "type": "dependency",
       "emoji": "⬇️",
       "entity": "⬇️",
       "code": ":arrow_down:",
@@ -113,6 +127,7 @@
       "semver": "patch"
     },
     {
+      "type": "dependency",
       "emoji": "⬆️",
       "entity": "⬆️",
       "code": ":arrow_up:",
@@ -121,6 +136,7 @@
       "semver": "patch"
     },
     {
+      "type": "dependency",
       "emoji": "📌",
       "entity": "&#x1F4CC;",
       "code": ":pushpin:",
@@ -129,6 +145,7 @@
       "semver": "patch"
     },
     {
+      "type": "etc",
       "emoji": "👷",
       "entity": "&#x1f477;",
       "code": ":construction_worker:",
@@ -137,6 +154,7 @@
       "semver": null
     },
     {
+      "type": "refactor",
       "emoji": "♻️",
       "entity": "&#x2672;",
       "code": ":recycle:",
@@ -145,6 +163,7 @@
       "semver": null
     },
     {
+      "type": "dependency",
       "emoji": "➕",
       "entity": "&#10133;",
       "code": ":heavy_plus_sign:",
@@ -153,6 +172,7 @@
       "semver": "patch"
     },
     {
+      "type": "dependency",
       "emoji": "➖",
       "entity": "&#10134;",
       "code": ":heavy_minus_sign:",
@@ -161,6 +181,7 @@
       "semver": "patch"
     },
     {
+      "type": "config",
       "emoji": "🔧",
       "entity": "&#x1f527;",
       "code": ":wrench:",
@@ -169,6 +190,7 @@
       "semver": "patch"
     },
     {
+      "type": "config",
       "emoji": "🔨",
       "entity": "&#128296;",
       "code": ":hammer:",
@@ -177,14 +199,7 @@
       "semver": null
     },
     {
-      "emoji": "🌐",
-      "entity": "&#127760;",
-      "code": ":globe_with_meridians:",
-      "description": "Internationalization and localization.",
-      "name": "globe-with-meridians",
-      "semver": "patch"
-    },
-    {
+      "type": "update",
       "emoji": "✏️",
       "entity": "&#59161;",
       "code": ":pencil2:",
@@ -193,6 +208,7 @@
       "semver": "patch"
     },
     {
+      "type": "feature",
       "emoji": "💩",
       "entity": "&#58613;",
       "code": ":poop:",
@@ -201,6 +217,7 @@
       "semver": null
     },
     {
+      "type": "update",
       "emoji": "⏪️",
       "entity": "&#9194;",
       "code": ":rewind:",
@@ -209,6 +226,7 @@
       "semver": "patch"
     },
     {
+      "type": "dependency",
       "emoji": "📦️",
       "entity": "&#1F4E6;",
       "code": ":package:",
@@ -217,6 +235,7 @@
       "semver": "patch"
     },
     {
+      "type": "update",
       "emoji": "👽️",
       "entity": "&#1F47D;",
       "code": ":alien:",
@@ -225,6 +244,7 @@
       "semver": "patch"
     },
     {
+      "type": "refactor",
       "emoji": "🚚",
       "entity": "&#1F69A;",
       "code": ":truck:",
@@ -233,6 +253,7 @@
       "semver": null
     },
     {
+      "type": "feature",
       "emoji": "💥",
       "entity": "&#x1f4a5;",
       "code": ":boom:",
@@ -241,6 +262,7 @@
       "semver": "major"
     },
     {
+      "type": "update",
       "emoji": "🍱",
       "entity": "&#1F371",
       "code": ":bento:",
@@ -249,6 +271,7 @@
       "semver": "patch"
     },
     {
+      "type": "update",
       "emoji": "💡",
       "entity": "&#128161;",
       "code": ":bulb:",
@@ -257,6 +280,7 @@
       "semver": null
     },
     {
+      "type": "update",
       "emoji": "💬",
       "entity": "&#128172;",
       "code": ":speech_balloon:",
@@ -265,6 +289,7 @@
       "semver": "patch"
     },
     {
+      "type": "update",
       "emoji": "🔊",
       "entity": "&#128266;",
       "code": ":loud_sound:",
@@ -273,6 +298,7 @@
       "semver": null
     },
     {
+      "type": "remove",
       "emoji": "🔇",
       "entity": "&#128263;",
       "code": ":mute:",
@@ -281,6 +307,7 @@
       "semver": null
     },
     {
+      "type": "ui",
       "emoji": "📱",
       "entity": "&#128241;",
       "code": ":iphone:",
@@ -289,6 +316,7 @@
       "semver": "patch"
     },
     {
+      "type": "etc",
       "emoji": "🤡",
       "entity": "&#129313;",
       "code": ":clown_face:",
@@ -297,6 +325,7 @@
       "semver": null
     },
     {
+      "type": "etc",
       "emoji": "🙈",
       "entity": "&#8bdfe7;",
       "code": ":see_no_evil:",
@@ -305,6 +334,7 @@
       "semver": null
     },
     {
+      "type": "feature",
       "emoji": "🔍️",
       "entity": "&#128269;",
       "code": ":mag:",
@@ -313,6 +343,7 @@
       "semver": "patch"
     },
     {
+      "type": "update",
       "emoji": "🏷️",
       "entity": "&#127991;",
       "code": ":label:",
@@ -321,6 +352,7 @@
       "semver": "patch"
     },
     {
+      "type": "feature",
       "emoji": "🥅",
       "entity": "&#x1F945;",
       "code": ":goal_net:",
@@ -329,14 +361,7 @@
       "semver": "patch"
     },
     {
-      "emoji": "💫",
-      "entity": "&#x1f4ab;",
-      "code": ":dizzy:",
-      "description": "Add or update animations and transitions.",
-      "name": "animation",
-      "semver": "patch"
-    },
-    {
+      "type": "remove",
       "emoji": "🗑️",
       "entity": "&#x1F5D1;",
       "code": ":wastebasket:",
@@ -345,6 +370,7 @@
       "semver": "patch"
     },
     {
+      "type": "update",
       "emoji": "🩹",
       "entity": "&#x1FA79;",
       "code": ":adhesive_bandage:",
@@ -353,6 +379,7 @@
       "semver": "patch"
     },
     {
+      "type": "remove",
       "emoji": "⚰️",
       "entity": "&#x26B0;",
       "code": ":coffin:",
@@ -361,6 +388,7 @@
       "semver": null
     },
     {
+      "type": "feature",
       "emoji": "👔",
       "entity": "&#128084;",
       "code": ":necktie:",
@@ -369,6 +397,7 @@
       "semver": "patch"
     },
     {
+      "type": "refactor",
       "emoji": "🧱",
       "entity": "&#x1f9f1;",
       "code": ":bricks:",
@@ -377,6 +406,7 @@
       "semver": null
     },
     {
+      "type": "etc",
       "emoji": "🧪",
       "entity": "&#x1F9EA;",
       "code": ":test_tube:",
