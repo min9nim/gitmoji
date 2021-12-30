@@ -94,6 +94,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
                 description={gitmoji.description}
                 emoji={gitmoji.emoji}
                 isListMode={isListMode}
+                index={index}
                 key={index}
                 name={gitmoji.name}
               />

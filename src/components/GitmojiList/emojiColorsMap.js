@@ -1,5 +1,4 @@
-// @flow
-export default {
+const origin = {
   'adhesive-bandage': '#fbcfb7',
   alembic: '#7f39fb',
   alien: '#c5e763',
@@ -73,3 +72,5 @@ export default {
   technologist: '#86B837',
   sun: '#00b1fb',
 }
+
+export default Object.values(origin)
