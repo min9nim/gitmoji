@@ -99,7 +99,7 @@ pre {
 }
 
 .wrap {
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -249,9 +249,9 @@ main.wrap {
     max-width: 25%;
   }
   .col-md-4 {
-    -ms-flex-preferred-size: 33.33333333%;
-    flex-basis: 33.33333333%;
-    max-width: 33.33333333%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
   }
 }
 

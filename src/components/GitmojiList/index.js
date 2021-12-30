@@ -19,7 +19,7 @@ type Props = {
 const GitmojiList = (props: Props): Element<'div'> => {
   const router = useRouter()
   const [searchInput, setSearchInput] = React.useState('')
-  const [isListMode, setIsListMode] = useLocalStorage('isListMode', false)
+  const [isListMode, setIsListMode] = useLocalStorage('isListMode', true)
 
   const gitmojis = searchInput
     ? props.gitmojis.filter(({ code, description }) => {
