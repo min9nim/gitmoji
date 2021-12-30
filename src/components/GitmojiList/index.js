@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
 import useLocalStorage from './hooks/useLocalStorage'
+import { groupBy, prop } from 'ramda'
 
 type Props = {
   gitmojis: Array<{
@@ -31,6 +32,8 @@ const GitmojiList = (props: Props): Element<'div'> => {
         )
       })
     : props.gitmojis
+
+  const typeList = groupBy(prop('type'), gitmojis)
 
   React.useEffect(() => {
     if (router.query.search) {
@@ -82,15 +85,22 @@ const GitmojiList = (props: Props): Element<'div'> => {
       {gitmojis.length === 0 ? (
         <h2>No gitmojis found for search: {searchInput}</h2>
       ) : (
-        gitmojis.map((gitmoji, index) => (
-          <Gitmoji
-            code={gitmoji.code}
-            description={gitmoji.description}
-            emoji={gitmoji.emoji}
-            isListMode={isListMode}
-            key={index}
-            name={gitmoji.name}
-          />
+        Object.entries(typeList).map(([type, gitmojis]) => (
+          <React.Fragment key={type}>
+            <div className="col-xs-12">
+              <h2>{type}</h2>
+            </div>
+            {gitmojis.map((gitmoji, index) => (
+              <Gitmoji
+                code={gitmoji.code}
+                description={gitmoji.description}
+                emoji={gitmoji.emoji}
+                isListMode={isListMode}
+                key={index}
+                name={gitmoji.name}
+              />
+            ))}
+          </React.Fragment>
         ))
       )}
     </div>
