@@ -1,6 +1,4 @@
-// @flow
 import React, { type Element } from 'react'
-
 import emojiColorsMap from '../emojiColorsMap'
 import styles from './styles.module.css'
 
