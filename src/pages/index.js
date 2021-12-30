@@ -5,15 +5,14 @@ import SEO from 'src/components/SEO'
 import axios from 'axios'
 import { prop } from 'ramda'
 import { DefaultLoading } from 'react-hook-loading'
+import { DATA_SOURCE_URL } from '../constants'
 
 const Home = () => {
   const [list, setList] = React.useState([])
 
   React.useEffect(() => {
     axios
-      .get(
-        'https://raw.githubusercontent.com/madup-inc/chapter-frontend/master/template/gitmoji.json?token=ABOJUXFH552LJHCKIXWDKCDB22JNC'
-      )
+      .get(DATA_SOURCE_URL)
       .then(prop('data'))
       .then((res) => setList(res.gitmojis))
   }, [])
