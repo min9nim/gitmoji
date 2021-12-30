@@ -109,15 +109,6 @@
       "semver": null
     },
     {
-      "type": "update",
-      "emoji": "💚",
-      "entity": "&#x1f49a;",
-      "code": ":green_heart:",
-      "description": "Fix CI Build.",
-      "name": "green-heart",
-      "semver": null
-    },
-    {
       "type": "dependency",
       "emoji": "⬇️",
       "entity": "⬇️",
