@@ -15,7 +15,7 @@ const Home = () => {
         'https://raw.githubusercontent.com/madup-inc/chapter-frontend/master/template/gitmoji.json?token=ABOJUXFH552LJHCKIXWDKCDB22JNC'
       )
       .then(prop('data'))
-      .then((list) => setList(list))
+      .then((res) => setList(res.gitmojis))
   }, [])
 
   if (list.length === 0) {
