@@ -1,8 +1,6 @@
-// @flow
 import React, { type Element } from 'react'
 import Clipboard from 'clipboard'
 import { useRouter } from 'next/router'
-
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
 import useLocalStorage from './hooks/useLocalStorage'
