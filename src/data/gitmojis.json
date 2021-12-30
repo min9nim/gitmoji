@@ -57,14 +57,6 @@
       "semver": null
     },
     {
-      "emoji": "🚀",
-      "entity": "&#x1f680;",
-      "code": ":rocket:",
-      "description": "Deploy stuff.",
-      "name": "rocket",
-      "semver": null
-    },
-    {
       "emoji": "💄",
       "entity": "&#ff99cc;",
       "code": ":lipstick:",
@@ -78,14 +70,6 @@
       "code": ":tada:",
       "description": "Begin a project.",
       "name": "tada",
-      "semver": null
-    },
-    {
-      "emoji": "✅",
-      "entity": "&#x2705;",
-      "code": ":white_check_mark:",
-      "description": "Add, update, or pass tests.",
-      "name": "white-check-mark",
       "semver": null
     },
     {
@@ -161,14 +145,6 @@
       "semver": null
     },
     {
-      "emoji": "📈",
-      "entity": "&#x1F4C8;",
-      "code": ":chart_with_upwards_trend:",
-      "description": "Add or update analytics or track code.",
-      "name": "chart-with-upwards-trend",
-      "semver": "patch"
-    },
-    {
       "emoji": "♻️",
       "entity": "&#x2672;",
       "code": ":recycle:",
@@ -241,14 +217,6 @@
       "semver": "patch"
     },
     {
-      "emoji": "🔀",
-      "entity": "&#128256;",
-      "code": ":twisted_rightwards_arrows:",
-      "description": "Merge branches.",
-      "name": "twisted-rightwards-arrows",
-      "semver": null
-    },
-    {
       "emoji": "📦️",
       "entity": "&#1F4E6;",
       "code": ":package:",
@@ -273,14 +241,6 @@
       "semver": null
     },
     {
-      "emoji": "📄",
-      "entity": "&#1F4C4;",
-      "code": ":page_facing_up:",
-      "description": "Add or update license.",
-      "name": "page-facing-up",
-      "semver": null
-    },
-    {
       "emoji": "💥",
       "entity": "&#x1f4a5;",
       "code": ":boom:",
@@ -297,14 +257,6 @@
       "semver": "patch"
     },
     {
-      "emoji": "♿️",
-      "entity": "&#9855;",
-      "code": ":wheelchair:",
-      "description": "Improve accessibility.",
-      "name": "wheelchair",
-      "semver": "patch"
-    },
-    {
       "emoji": "💡",
       "entity": "&#128161;",
       "code": ":bulb:",
@@ -313,27 +265,11 @@
       "semver": null
     },
     {
-      "emoji": "🍻",
-      "entity": "&#x1f37b;",
-      "code": ":beers:",
-      "description": "Write code drunkenly.",
-      "name": "beers",
-      "semver": null
-    },
-    {
       "emoji": "💬",
       "entity": "&#128172;",
       "code": ":speech_balloon:",
       "description": "Add or update text and literals.",
       "name": "speech-balloon",
-      "semver": "patch"
-    },
-    {
-      "emoji": "🗃️",
-      "entity": "&#128451;",
-      "code": ":card_file_box:",
-      "description": "Perform database related changes.",
-      "name": "card-file-box",
       "semver": "patch"
     },
     {
@@ -353,30 +289,6 @@
       "semver": null
     },
     {
-      "emoji": "👥",
-      "entity": "&#128101;",
-      "code": ":busts_in_silhouette:",
-      "description": "Add or update contributor(s).",
-      "name": "busts-in-silhouette",
-      "semver": null
-    },
-    {
-      "emoji": "🚸",
-      "entity": "&#128696;",
-      "code": ":children_crossing:",
-      "description": "Improve user experience / usability.",
-      "name": "children-crossing",
-      "semver": "patch"
-    },
-    {
-      "emoji": "🏗️",
-      "entity": "&#1f3d7;",
-      "code": ":building_construction:",
-      "description": "Make architectural changes.",
-      "name": "building-construction",
-      "semver": null
-    },
-    {
       "emoji": "📱",
       "entity": "&#128241;",
       "code": ":iphone:",
@@ -393,36 +305,12 @@
       "semver": null
     },
     {
-      "emoji": "🥚",
-      "entity": "&#129370;",
-      "code": ":egg:",
-      "description": "Add or update an easter egg.",
-      "name": "egg",
-      "semver": "patch"
-    },
-    {
       "emoji": "🙈",
       "entity": "&#8bdfe7;",
       "code": ":see_no_evil:",
       "description": "Add or update a .gitignore file.",
       "name": "see-no-evil",
       "semver": null
-    },
-    {
-      "emoji": "📸",
-      "entity": "&#128248;",
-      "code": ":camera_flash:",
-      "description": "Add or update snapshots.",
-      "name": "camera-flash",
-      "semver": null
-    },
-    {
-      "emoji": "⚗️",
-      "entity": "&#128248;",
-      "code": ":alembic:",
-      "description": "Perform experiments.",
-      "name": "alembic",
-      "semver": "patch"
     },
     {
       "emoji": "🔍️",
@@ -438,22 +326,6 @@
       "code": ":label:",
       "description": "Add or update types.",
       "name": "label",
-      "semver": "patch"
-    },
-    {
-      "emoji": "🌱",
-      "entity": "&#127793;",
-      "code": ":seedling:",
-      "description": "Add or update seed files.",
-      "name": "seedling",
-      "semver": null
-    },
-    {
-      "emoji": "🚩",
-      "entity": "&#x1F6A9;",
-      "code": ":triangular_flag_on_post:",
-      "description": "Add, update, or remove feature flags.",
-      "name": "triangular-flag-on-post",
       "semver": "patch"
     },
     {
@@ -481,14 +353,6 @@
       "semver": "patch"
     },
     {
-      "emoji": "🛂",
-      "entity": "&#x1F6C2;",
-      "code": ":passport_control:",
-      "description": "Work on code related to authorization, roles and permissions.",
-      "name": "passport-control",
-      "semver": "patch"
-    },
-    {
       "emoji": "🩹",
       "entity": "&#x1FA79;",
       "code": ":adhesive_bandage:",
@@ -497,27 +361,11 @@
       "semver": "patch"
     },
     {
-      "emoji": "🧐",
-      "entity": "&#x1F9D0;",
-      "code": ":monocle_face:",
-      "description": "Data exploration/inspection.",
-      "name": "monocle-face",
-      "semver": null
-    },
-    {
       "emoji": "⚰️",
       "entity": "&#x26B0;",
       "code": ":coffin:",
       "description": "Remove dead code.",
       "name": "coffin",
-      "semver": null
-    },
-    {
-      "emoji": "🧪",
-      "entity": "&#x1F9EA;",
-      "code": ":test_tube:",
-      "description": "Add a failing test.",
-      "name": "test-tube",
       "semver": null
     },
     {
@@ -529,14 +377,6 @@
       "semver": "patch"
     },
     {
-      "emoji": "🩺",
-      "entity": "&#x1FA7A;",
-      "code": ":stethoscope:",
-      "description": "Add or update healthcheck.",
-      "name": "stethoscope",
-      "semver": null
-    },
-    {
       "emoji": "🧱",
       "entity": "&#x1f9f1;",
       "code": ":bricks:",
@@ -545,11 +385,11 @@
       "semver": null
     },
     {
-      "emoji": "🧑‍💻",
-      "entity": "&#129489;&#8205;&#128187;",
-      "code": ":technologist:",
-      "description": "Improve developer experience",
-      "name": "technologist",
+      "emoji": "🧪",
+      "entity": "&#x1F9EA;",
+      "code": ":test_tube:",
+      "description": "Add a testcase",
+      "name": "test-tube",
       "semver": null
     }
   ]
