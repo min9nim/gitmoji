@@ -81,6 +81,7 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
-    "next-pwa": "^5.4.4"
+    "next-pwa": "^5.4.4",
+    "ramda": "^0.27.1"
   }
 }
