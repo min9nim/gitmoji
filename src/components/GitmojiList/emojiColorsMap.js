@@ -54,7 +54,7 @@ export default {
   'rotating-light': '#536dfe',
   'see-no-evil': '#8bdfe7',
   seedling: '#c5e763',
-  sparkles: '#ffe55f',
+  sparkles: '#cb63e6',
   'speech-balloon': '#cedae6',
   stethoscope: '#77e856',
   tada: '#f74d5f',
