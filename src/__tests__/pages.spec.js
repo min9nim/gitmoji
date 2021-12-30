@@ -3,7 +3,6 @@ import { enableFetchMocks } from 'jest-fetch-mock'
 
 import App from '../pages/_app'
 import Index from '../pages/index'
-import About from '../pages/about'
 import Contributors, {
   getStaticProps as getContributorsStaticProps,
 } from '../pages/contributors'
@@ -35,13 +34,6 @@ describe('Pages', () => {
   describe.skip('Index', () => {
     it('should render the page', () => {
       const wrapper = renderer.create(<Index />)
-      expect(wrapper).toMatchSnapshot()
-    })
-  })
-
-  describe('About', () => {
-    it('should render the page', () => {
-      const wrapper = renderer.create(<About />)
       expect(wrapper).toMatchSnapshot()
     })
   })
