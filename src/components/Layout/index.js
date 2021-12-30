@@ -10,7 +10,6 @@ const Layout = (props: Props): React.Node => (
     <IconDefinitions />
     <Header withHeadline />
     <main className="wrap">{props.children}</main>
-    <Footer />
   </>
 )
 
