@@ -10,7 +10,6 @@ const Home = () => (
   <>
     <SEO />
     <main>
-      <CarbonAd />
       <GitmojiList gitmojis={gitmojis.gitmojis} />
     </main>
   </>
