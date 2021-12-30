@@ -1,7 +1,5 @@
 // @flow
 import React, { type Element } from 'react'
-
-import Button from 'src/components/Button'
 import Logo from './Logo'
 import styles from './styles.module.css'
 

@@ -1,13 +1,13 @@
 .header {
   background-color: var(--primary);
-  padding: 4.5em 2em;
+  padding: 20px;
   text-align: center;
 }
 
 .title {
   padding: 0.5em 0;
   margin: 0;
-  font-size: 2em;
+  font-size: 20px;
   color: var(--textInPrimary);
 }
 
