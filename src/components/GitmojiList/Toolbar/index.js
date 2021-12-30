@@ -60,10 +60,10 @@ const Toolbar = (props: Props): Element<'div'> => {
         <kbd className={styles.kbd}>{isMacOs() ? '⌘' : 'Ctrl'} K</kbd>
       </div>
 
-      <ListModeSelector
-        isListMode={props.isListMode}
-        setIsListMode={props.setIsListMode}
-      />
+      {/*<ListModeSelector*/}
+      {/*  isListMode={props.isListMode}*/}
+      {/*  setIsListMode={props.setIsListMode}*/}
+      {/*/>*/}
     </div>
   )
 }
