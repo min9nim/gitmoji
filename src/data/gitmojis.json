@@ -65,14 +65,6 @@
       "semver": "patch"
     },
     {
-      "emoji": "🎉",
-      "entity": "&#127881;",
-      "code": ":tada:",
-      "description": "Begin a project.",
-      "name": "tada",
-      "semver": null
-    },
-    {
       "emoji": "🔒️",
       "entity": "&#x1f512;",
       "code": ":lock:",
