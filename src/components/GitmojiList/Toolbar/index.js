@@ -14,6 +14,8 @@ type Props = {
 const isMacOs = () => {
   if (typeof window !== 'undefined') {
     return window.navigator.platform.toUpperCase().indexOf('MAC') >= 0
+  } else {
+    return process.platform === 'darwin'
   }
 }
 
