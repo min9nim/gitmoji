@@ -26,7 +26,7 @@ const Gitmoji = (props: Props): Element<'article'> => (
         <button
           type="button"
           className={`gitmoji-clipboard-emoji ${styles.gitmoji}`}
-          data-clipboard-text={props.emoji}
+          data-clipboard-text={props.emoji + ' ' + props.description}
         >
           {props.emoji}
         </button>
@@ -34,7 +34,7 @@ const Gitmoji = (props: Props): Element<'article'> => (
       <div className={styles.gitmojiInfo}>
         <button
           className={`gitmoji-clipboard-code ${styles.gitmojiCode}`}
-          data-clipboard-text={props.code}
+          data-clipboard-text={props.code + ' ' + props.description}
           tabIndex="-1"
           type="button"
         >
