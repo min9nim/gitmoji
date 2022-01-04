@@ -1,5 +1,5 @@
 import React from 'react'
-// import gitmojis from 'src/data/gitmojis.json'
+import gitmojis from 'src/data/gitmojis.json'
 import GitmojiList from 'src/components/GitmojiList'
 import SEO from 'src/components/SEO'
 import axios from 'axios'
@@ -11,6 +11,10 @@ const Home = () => {
   const [list, setList] = React.useState([])
 
   React.useEffect(() => {
+    if (process.env.NODE_ENV === 'development') {
+      setList(gitmojis.gitmojis)
+      return
+    }
     axios
       .get(DATA_SOURCE_URL)
       .then(prop('data'))
