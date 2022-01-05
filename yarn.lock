@@ -5156,10 +5156,10 @@ react-dom@^17.0.1:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-hook-loading@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/react-hook-loading/-/react-hook-loading-0.0.8.tgz#36948912dfda474d04b8750f2913ea689802a96f"
-  integrity sha512-As0Q3qXn318j/ieIKJrU8FPlSQfwX6rlnP5obsPJxseDsYxmc1/B+VHav/3JDiLeypt6lTkJgpyBXU+aRYlQiQ==
+react-hook-loading@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/react-hook-loading/-/react-hook-loading-0.0.9.tgz#337a9bb2832edeb7fb156bbbabd1b37d77bd3b58"
+  integrity sha512-cmNTsJ0rDceKbDdHNPBvRR2S1jIIS8NXYJWMCzaWaTI7kIFu8wdXJutiRp1fHLxQLJgQfXBBnfqyR94g4QOz0A==
 
 react-is@17.0.2, "react-is@^16.12.0 || ^17.0.0", react-is@^17.0.1, react-is@^17.0.2:
   version "17.0.2"
