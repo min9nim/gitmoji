@@ -17,13 +17,6 @@
       "semver": "patch"
     },
     {
-      "type": "Remove",
-      "emoji": "🔥",
-      "code": ":fire:",
-      "description": "Remove code or files",
-      "name": "fire"
-    },
-    {
       "type": "Update",
       "emoji": "🐛",
       "code": ":bug:",
@@ -126,7 +119,7 @@
       "type": "Refactor",
       "emoji": "♻️",
       "code": ":recycle:",
-      "description": "Don't Repeat Your code",
+      "description": "Don't Repeat Yourself",
       "name": "recycle"
     },
     {
