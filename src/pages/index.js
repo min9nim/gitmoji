@@ -6,12 +6,13 @@ import axios from 'axios'
 import { prop } from 'ramda'
 import { DefaultLoading } from 'react-hook-loading'
 import { DATA_SOURCE_URL } from '../constants'
+import { strMatched } from '@madup-inc/utils'
 
 const Home = () => {
   const [list, setList] = React.useState([])
 
   React.useEffect(() => {
-    if (process.env.NODE_ENV === 'development') {
+    if (strMatched(['development', 'production'], process.env.NODE_ENV)) {
       setList(gitmojis.gitmojis)
       return
     }
