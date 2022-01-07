@@ -51,7 +51,7 @@
       "type": "UI",
       "emoji": "💄",
       "code": ":lipstick:",
-      "description": "Add or update the UI and style files",
+      "description": "Add or update the UI and style",
       "name": "lipstick",
       "semver": "patch"
     },
