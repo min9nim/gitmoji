@@ -343,8 +343,8 @@
       "name": "test-tube"
     },
     {
-      "type": "Update",
-      "emoji": "\uD83E\uDDE9",
+      "type": "Refactor",
+      "emoji": "🧩",
       "code": ":jigsaw:",
       "description": "format code",
       "name": "format-code"
