@@ -245,7 +245,7 @@
       "name": "loud-sound"
     },
     {
-      "type": "Remove",
+      "type": "Etc",
       "emoji": "🔇",
       "code": ":mute:",
       "description": "Remove logs",
