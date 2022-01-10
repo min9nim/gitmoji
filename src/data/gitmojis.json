@@ -355,6 +355,13 @@
       "code": ":twisted_rightwards_arrows:",
       "description": "Merge branches",
       "name": "twisted-rightwards-arrows"
+    },
+    {
+      "type": "Refactor",
+      "emoji": "✂️",
+      "code": ":scissors:",
+      "description": "Separation of concerns",
+      "name": "scissors"
     }
   ]
 }
