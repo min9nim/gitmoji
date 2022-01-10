@@ -95,7 +95,6 @@ const GitmojiList = (props: Props): Element<'div'> => {
                   isListMode={isListMode}
                   index={index}
                   key={index}
-                  name={gitmoji.name}
                 />
               ))}
             </React.Fragment>

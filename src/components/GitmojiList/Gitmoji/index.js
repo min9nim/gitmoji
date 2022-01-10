@@ -7,7 +7,6 @@ type Props = {
   description: string,
   emoji: string,
   isListMode: boolean,
-  name: string,
 }
 
 const Gitmoji = (props: Props): Element<'article'> => {
