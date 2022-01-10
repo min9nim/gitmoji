@@ -5,7 +5,7 @@
       "type": "UI",
       "emoji": "🎨",
       "code": ":art:",
-      "description": "Update css for ui styling"
+      "description": "Add or update UI/UX"
     },
     {
       "type": "Refactor",
@@ -41,7 +41,7 @@
       "type": "UI",
       "emoji": "💄",
       "code": ":lipstick:",
-      "description": "Add or update the UI and style"
+      "description": "Update the styling for better UI/UX"
     },
     {
       "type": "Update",
