@@ -69,6 +69,14 @@ const GitmojiList = (props: Props): Element<'div'> => {
 
   return (
     <div className="row" id="gitmoji-list">
+      <div className="col-xs-12">
+        <Toolbar
+          isListMode={isListMode}
+          searchInput={searchInput}
+          setIsListMode={setIsListMode}
+          setSearchInput={setSearchInput}
+        />
+      </div>
       {gitmojis.length === 0 ? (
         <h2>No gitmojis found for search: {searchInput}</h2>
       ) : (
@@ -92,14 +100,6 @@ const GitmojiList = (props: Props): Element<'div'> => {
           )
         )
       )}
-      <div className="col-xs-12">
-        <Toolbar
-          isListMode={isListMode}
-          searchInput={searchInput}
-          setIsListMode={setIsListMode}
-          setSearchInput={setSearchInput}
-        />
-      </div>
     </div>
   )
 }

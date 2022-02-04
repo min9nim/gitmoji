@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 0.5rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .inputWrapper {
@@ -62,7 +62,6 @@
 @media (max-width: 430px) {
   .searchInput {
     margin: 0;
-    margin-top: 0.5rem;
   }
 
   .container {
