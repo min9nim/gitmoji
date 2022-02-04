@@ -8,7 +8,7 @@ type Props = { children: React.Node }
 const Layout = (props: Props): React.Node => (
   <>
     <IconDefinitions />
-    <Header withHeadline />
+    {/*<Header withHeadline />*/}
     <main className="wrap">{props.children}</main>
     <Footer />
   </>
