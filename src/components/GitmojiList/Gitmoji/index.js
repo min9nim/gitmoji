@@ -38,7 +38,7 @@ const Gitmoji = (props: Props): Element<'article'> => {
           >
             <code style={{ fontSize: 14 }}>{props.code}</code>
           </button>
-          <p>{props.description}</p>
+          <p style={{ paddingTop: 2 }}>{props.description}</p>
         </div>
       </div>
     </article>

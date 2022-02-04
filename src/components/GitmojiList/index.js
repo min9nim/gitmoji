@@ -85,7 +85,7 @@ const GitmojiList = (props: Props): Element<'div'> => {
           ([type, gitmojis]) => (
             <React.Fragment key={type}>
               <div className="col-xs-12">
-                <h2>{type}</h2>
+                <h4 style={{ margin: '15px 0 5px 0' }}>{type}</h4>
               </div>
               {gitmojis.map((gitmoji, index) => (
                 <Gitmoji
