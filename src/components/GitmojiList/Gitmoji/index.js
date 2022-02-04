@@ -12,7 +12,8 @@ type Props = {
 const Gitmoji = (props: Props): Element<'article'> => {
   return (
     <article
-      style={{ '--emojiColor': emojiColorsMap[props.index] }}
+      // style={{ '--emojiColor': emojiColorsMap[props.index] }}
+      style={{ '--emojiColor': '#666' }}
       className={`${styles.emoji} col-xs-12 col-sm-6 ${
         props.isListMode ? 'col-md-4' : 'col-md-3'
       }`}
