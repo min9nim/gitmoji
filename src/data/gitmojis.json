@@ -2,7 +2,7 @@
   "_comment": "Following gitmojis is hosted on https://madmoji.vercel.app",
   "gitmojis": [
     {
-      "type": "UI",
+      "type": "Update",
       "emoji": "🎨",
       "code": ":art:",
       "description": "Add or update UI/UX"
@@ -26,7 +26,7 @@
       "description": "Critical hotfix"
     },
     {
-      "type": "Feature",
+      "type": "Update",
       "emoji": "✨",
       "code": ":sparkles:",
       "description": "New features"
@@ -38,7 +38,7 @@
       "description": "Add or update documentation"
     },
     {
-      "type": "UI",
+      "type": "Update",
       "emoji": "💄",
       "code": ":lipstick:",
       "description": "Update the styling for better UI/UX"
@@ -68,19 +68,7 @@
       "description": "Work in progress"
     },
     {
-      "type": "Dependency",
-      "emoji": "⬇️",
-      "code": ":arrow_down:",
-      "description": "Downgrade dependencies"
-    },
-    {
-      "type": "Dependency",
-      "emoji": "⬆️",
-      "code": ":arrow_up:",
-      "description": "Upgrade dependencies"
-    },
-    {
-      "type": "Dependency",
+      "type": "Etc",
       "emoji": "📌",
       "code": ":pushpin:",
       "description": "Pin dependencies to specific versions"
@@ -104,13 +92,13 @@
       "description": "More lightweight(simple) code"
     },
     {
-      "type": "Config",
+      "type": "Etc",
       "emoji": "🔧",
       "code": ":wrench:",
       "description": "Add or update configuration files"
     },
     {
-      "type": "Config",
+      "type": "Etc",
       "emoji": "🔨",
       "code": ":hammer:",
       "description": "Add or update development scripts"
@@ -122,19 +110,19 @@
       "description": "Fix typos"
     },
     {
-      "type": "Feature",
+      "type": "Update",
       "emoji": "💩",
       "code": ":poop:",
       "description": "Write bad code that needs to be improved"
     },
     {
-      "type": "Update",
+      "type": "Etc",
       "emoji": "⏪️",
       "code": ":rewind:",
       "description": "Revert changes"
     },
     {
-      "type": "Dependency",
+      "type": "Etc",
       "emoji": "📦️",
       "code": ":package:",
       "description": "Add or update packages"
@@ -152,7 +140,7 @@
       "description": "Move or rename resources"
     },
     {
-      "type": "Feature",
+      "type": "Update",
       "emoji": "💥",
       "code": ":boom:",
       "description": "Introduce breaking changes"
@@ -164,7 +152,7 @@
       "description": "Add or update assets"
     },
     {
-      "type": "Update",
+      "type": "Etc",
       "emoji": "💡",
       "code": ":bulb:",
       "description": "Add or update comments in source code"
@@ -188,7 +176,7 @@
       "description": "Remove logs"
     },
     {
-      "type": "UI",
+      "type": "Update",
       "emoji": "📱",
       "code": ":iphone:",
       "description": "Work on responsive design"
@@ -212,13 +200,13 @@
       "description": "Add or update types"
     },
     {
-      "type": "Feature",
+      "type": "Update",
       "emoji": "🥅",
       "code": ":goal_net:",
       "description": "Catch or handle errors"
     },
     {
-      "type": "Remove",
+      "type": "Update",
       "emoji": "🗑️",
       "code": ":wastebasket:",
       "description": "Deprecate code that needs to be cleaned up"
@@ -230,13 +218,13 @@
       "description": "Simple fix for a non-critical issue"
     },
     {
-      "type": "Remove",
+      "type": "Update",
       "emoji": "⚰️",
       "code": ":coffin:",
       "description": "Remove dead(unused) code"
     },
     {
-      "type": "Feature",
+      "type": "Update",
       "emoji": "👔",
       "code": ":necktie:",
       "description": "Add or update business logic"
