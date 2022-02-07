@@ -104,18 +104,6 @@
       "description": "More lightweight(simple) code"
     },
     {
-      "type": "Dependency",
-      "emoji": "➕",
-      "code": ":heavy_plus_sign:",
-      "description": "Add a dependency"
-    },
-    {
-      "type": "Dependency",
-      "emoji": "➖",
-      "code": ":heavy_minus_sign:",
-      "description": "Remove a dependency"
-    },
-    {
       "type": "Config",
       "emoji": "🔧",
       "code": ":wrench:",
@@ -149,7 +137,7 @@
       "type": "Dependency",
       "emoji": "📦️",
       "code": ":package:",
-      "description": "Add or update compiled files or packages"
+      "description": "Add or update packages"
     },
     {
       "type": "Update",
@@ -216,12 +204,6 @@
       "emoji": "🙈",
       "code": ":see_no_evil:",
       "description": "Add or update a .gitignore file"
-    },
-    {
-      "type": "Feature",
-      "emoji": "🔍️",
-      "code": ":mag:",
-      "description": "Improve SEO"
     },
     {
       "type": "Update",
