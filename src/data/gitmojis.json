@@ -239,7 +239,7 @@
       "type": "Remove",
       "emoji": "🗑️",
       "code": ":wastebasket:",
-      "description": "Deprecate code that needs to be cleaned up"
+      "description": "Remove files that needs to be cleaned up"
     },
     {
       "type": "Update",
