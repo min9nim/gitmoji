@@ -4640,6 +4640,7 @@ __metadata:
     react: ^17.0.1
     react-dom: ^17.0.1
     react-hook-loading: 0.0.9
+    react-hot-toast: ^2.4.1
     react-test-renderer: ^17.0.1
   languageName: unknown
   linkType: soft
@@ -4743,6 +4744,15 @@ __metadata:
     pify: ^2.0.0
     pinkie-promise: ^2.0.0
   checksum: 18109d6b9d55643d2b98b59c3cfae7073ccfe39829632f353d516cc124d836c2ddebe48a23f04af63d66a621b6d86dd4cbd7e6af906f2458a7fe510ffc4bd424
+  languageName: node
+  linkType: hard
+
+"goober@npm:^2.1.10":
+  version: 2.1.13
+  resolution: "goober@npm:2.1.13"
+  peerDependencies:
+    csstype: ^3.0.10
+  checksum: 0c00b90d26d1a2fad432e311fd4f47bc9fef1eee2a733158d9e2c72a89cf76d414090d063a8d20fe378f2b2b8087df0a83b0f00a3244d1466b97a0d3b14344a7
   languageName: node
   linkType: hard
 
@@ -7402,6 +7412,18 @@ __metadata:
   peerDependencies:
     react: ^16.0.0
   checksum: 38b8f56aed7a93c85145fe46381dc1ae0e7bff93eff3ddda5d9d363643006b6e321a43ee1cf5cca7a587955c40578d1a3732136bfb48931f0c5237a25eba72bd
+  languageName: node
+  linkType: hard
+
+"react-hot-toast@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "react-hot-toast@npm:2.4.1"
+  dependencies:
+    goober: ^2.1.10
+  peerDependencies:
+    react: ">=16"
+    react-dom: ">=16"
+  checksum: 3e337816db574782454bf09c63a8aca546bf9c5be3f83d0494d24bdcfd97ca2db64d4c151c4ab0184d2342d7a7226403e6812e70caf03c8b55a07787bb4ad0f2
   languageName: node
   linkType: hard
 
