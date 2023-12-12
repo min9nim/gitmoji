@@ -1,12 +1,13 @@
-import React from 'react'
-import gitmojis from 'src/data/gitmojis.json'
-import GitmojiList from 'src/components/GitmojiList'
-import SEO from 'src/components/SEO'
+import { strMatched } from '@madup-inc/utils'
 import axios from 'axios'
 import { prop } from 'ramda'
+import React from 'react'
 import { DefaultLoading } from 'react-hook-loading'
+import { Toaster } from 'react-hot-toast'
+import GitmojiList from 'src/components/GitmojiList'
+import SEO from 'src/components/SEO'
+import gitmojis from 'src/data/gitmojis.json'
 import { DATA_SOURCE_URL } from '../constants'
-import { strMatched } from '@madup-inc/utils'
 
 const Home = () => {
   const [list, setList] = React.useState([])
@@ -30,6 +31,7 @@ const Home = () => {
       <SEO />
       <main>
         <GitmojiList gitmojis={list} />
+        <Toaster />
       </main>
     </>
   )
