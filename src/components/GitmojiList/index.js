@@ -1,10 +1,11 @@
-import React, { type Element } from 'react'
 import Clipboard from 'clipboard'
 import { useRouter } from 'next/router'
+import { groupBy, prop, sort } from 'ramda'
+import React from 'react'
+import toast from 'react-hot-toast'
 import Gitmoji from './Gitmoji'
 import Toolbar from './Toolbar'
 import useLocalStorage from './hooks/useLocalStorage'
-import { groupBy, prop, sort } from 'ramda'
 
 type Props = {
   gitmojis: Array<{
@@ -15,7 +16,7 @@ type Props = {
   }>,
 }
 
-const GitmojiList = (props: Props): Element<'div'> => {
+const GitmojiList = (props: Props): React.Element<'div'> => {
   const router = useRouter()
   const [searchInput, setSearchInput] = React.useState('')
   const [isListMode, setIsListMode] = useLocalStorage('isListMode', true)
@@ -49,19 +50,32 @@ const GitmojiList = (props: Props): Element<'div'> => {
     const clipboard = new Clipboard(
       '.gitmoji-clipboard-emoji, .gitmoji-clipboard-code'
     )
-
     clipboard.on('success', function (e) {
-      const notification = new window.NotificationFx({
-        message: e.trigger.classList.contains('gitmoji-clipboard-emoji')
-          ? `<p>Hey! Gitmoji ${e.text} copied to the clipboard 😜</p>`
-          : `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`,
-        layout: 'growl',
-        effect: 'scale',
-        type: 'notice',
-        ttl: 2000,
-      })
-
-      notification.show()
+      try {
+        const notification = new window.NotificationFx({
+          message: e.trigger.classList.contains('gitmoji-clipboard-emoji')
+            ? `<p>Hey! Gitmoji ${e.text} copied to the clipboard 😜</p>`
+            : `<p>Hey! Gitmoji <span class="gitmoji-code">${e.text}</span> copied to the clipboard 😜</p>`,
+          layout: 'growl',
+          effect: 'scale',
+          type: 'notice',
+          ttl: 2000,
+        })
+        notification.show()
+      } catch (e) {
+        console.error(e)
+        const message = e.trigger.classList.contains(
+          'gitmoji-clipboard-emoji'
+        ) ? (
+          <p>Hey! Gitmoji {e.text} copied to the clipboard 😜</p>
+        ) : (
+          <p>
+            Hey! Gitmoji <span class="gitmoji-code">{e.text}</span> copied to
+            the clipboard 😜
+          </p>
+        )
+        toast.success(message)
+      }
     })
 
     return () => clipboard.destroy()
